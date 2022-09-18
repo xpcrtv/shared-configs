@@ -1,0 +1,44 @@
+{
+  "name": "@xpcrtv/stylelint-config",
+  "version": "0.1.0",
+  "description": "stylelint shareble config",
+  "author": "xpcrtv <20889274+xpcrtv@users.noreply.github.com>",
+  "homepage": "https://github.com/xpcrtv/shared-configs#readme",
+  "license": "ISC",
+  "main": "lib/stylelint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpcrtv/shared-configs.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@xpcrtv/stylelint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xpcrtv/shared-configs/issues"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 14"
+  },
+  "devDependencies": {
+    "stylelint": "^14.11.0"
+  },
+  "dependencies": {
+    "stylelint-config-css-modules": "^4.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
+  }
+}
