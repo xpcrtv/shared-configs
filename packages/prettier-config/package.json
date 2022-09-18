@@ -17,9 +17,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js"
-  },
   "peerDependencies": {
     "prettier": "^2"
   }
