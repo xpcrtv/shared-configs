@@ -1,0 +1,39 @@
+{
+  "name": "@xpcrtv/eslint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xpcrtv <20889274+xpcrtv@users.noreply.github.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-graphql": "^4.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.0.4",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sonarjs": "^0.15.0"
+  }
+}
