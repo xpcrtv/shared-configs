@@ -1,0 +1,26 @@
+{
+  "name": "@xpcrtv/prettier-config",
+  "version": "0.1.0",
+  "description": "prettier config",
+  "keywords": [],
+  "author": "xpcrtv <20889274+xpcrtv@users.noreply.github.com>",
+  "license": "ISC",
+  "main": "lib/prettier-config.js",
+  "directories": {
+    "lib": "lib",
+    "scripts": "scripts"
+  },
+  "files": [
+    "scripts/*",
+    "lib/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "peerDependencies": {
+    "prettier": "^2"
+  }
+}
